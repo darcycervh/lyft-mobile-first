@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.lab{
+    width: 12px;
+}
+.icon{
+    font-size: 2em;
+}
+.p{
+    font-size: 0.8em;
+}
+.btn-next{
+    position: relative;
+    top: 18vh;
+}
+.tittle-verify{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.3em;
+}
+.p-verify{
+    font-family: 'Raleway', sans-serif;
+}
+.button-next{
+    color: #fff;
+    background: rgb(147,3,160); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(147,3,160,1) 2%, rgba(237,4,182,1) 50%, rgba(80,0,209,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(147,3,160,1) 2%,rgba(237,4,182,1) 50%,rgba(80,0,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(147,3,160,1) 2%,rgba(237,4,182,1) 50%,rgba(80,0,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9303a0', endColorstr='#5000d1',GradientType=1 ); 
+}

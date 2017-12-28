@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lyft</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../vendors/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/email.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button id="buttonPrev" class="btn fa fa-angle-left rounded-circle bg-white icon"></button>
+        <h2 class="text-center tittle-signup mb-3">Sign up</h2>
+        <p class="text-center p-signup ">Join now for free ride credit</p>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="input-group">
+          <span class="input-group-addon fa fa-user" id="basic-addon1"></span>
+          <input id="first-name" type="text" class="form-control" placeholder="First-name" aria-label="First-name" aria-describedby="basic-addon1" required>
+          <input id="last-name" type="text" class="form-control" placeholder="Last-name" aria-label="Last-name" aria-describedby="basic-addon1" required>
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon fa fa-envelope-o" id="basic-addon1"></span>
+          <input id="email" type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" required>
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon fa fa-lock" id="basic-addon1"></span>
+          <input id="password" type="password" class="form-control" placeholder="Password" aria-label="Email" aria-describedby="basic-addon1" required>
+          </div>
+        <br>
+        <span id="span-digits" class="bg-warning p-1 text-light rounded">Your password should have at least 8 digits</span>
+        <br>
+        <span id="span-uppercase" class="d-none bg-warning p-1 text-light rounded">Your password should have at least one uppercase letter </span>
+        <br>
+        <div class="form-check d-flex justify-content-center mx-auto p-signup">
+          <label class="form-check-label">
+              <input id="checkbox" type="checkbox" class="form-check-input">
+                  I agree to Lyft's <a href="">Terms of service</a>.
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button id="buttonNext" class="p-signup btn btn-block text-uppercase btn-next" >next</button>
+      </div>
+    </div>
+  </div>
+  <script src="../vendors/js/jquery-3.2.1.js"></script>
+  <script src="../vendors/js/bootstrap.min.js"></script>
+  <script src="../js/email.js"></script>
+</body>
+</html>
