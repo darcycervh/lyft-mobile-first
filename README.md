@@ -1,5 +1,6 @@
-## Foodmap:
-### Programa: Realizar una web-app.
+# Foodmap
+
+## Programa: Realizar una web-app
 
 **Descripción del proyecto:**
 Diseñar una web-app que replique el sitio web: Lyft

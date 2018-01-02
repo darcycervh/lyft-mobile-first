@@ -1,34 +1,34 @@
-$(document).ready(function(){
-    $('#span').hide();
-    var $resend = $('#resend');
-    $resend.on('click',function(){
-        window.location.href='../views/signup.html';
-    });
-    var $buttonNext = $('#buttonNext');
+$(document).ready(function() {
+  $('#span').hide();
+  var $resend = $('#resend');
+  $resend.on('click', function() {
+    window.location.href = '../views/signup.html';
+  });
+  var $buttonNext = $('#buttonNext');
     
-    var $codeVerify1 = $('#codeInput1');
-    var $codeVerify2 = $('#codeInput2');
-    var $codeVerify3 = $('#codeInput3');
+  var $codeVerify1 = $('#codeInput1');
+  var $codeVerify2 = $('#codeInput2');
+  var $codeVerify3 = $('#codeInput3');
 
-    $buttonNext.on('click', function(){
-        if($labGroup.val() == ''){
-            $('#span').fadeIn(); 
-        }else{
-            $('#span').hide(); 
-        }
-    });
-    var $labGroup = $('.lab-group');
-    $labGroup.on('keydown',function(){
-        for(var i=0;i<$labGroup.val();i++){
-            $buttonNext.addClass('button-next');
-            $buttonNext.on('click',function(){
-                window.location.href='../views/email.html';
-            });
-        }
-        if($labGroup.val() != ''){
-            $('#span').hide();
-        }
-    });
+  $buttonNext.on('click', function() {
+    if ($labGroup.val() == '') {
+      $('#span').fadeIn(); 
+    }else {
+      $('#span').hide(); 
+    }
+  });
+  var $labGroup = $('.lab-group');
+  $labGroup.on('keydown', function() {
+    for (var i = 0;i < $labGroup.val();i++) {
+      $buttonNext.addClass('button-next');
+      $buttonNext.on('click', function() {
+        window.location.href = '../views/email.html';
+      });
+    }
+    if ($labGroup.val() != '') {
+      $('#span').hide();
+    }
+  });
 });
 /**
      * $inputNumber.on('keydown', function(event){
@@ -36,12 +36,12 @@ $(document).ready(function(){
            $('#msn').hide();   
         }
      */
-//$('.dropdown-toggle').dropdown();
-    /*var $buttonPrev = $('#buttonPrev');
+// $('.dropdown-toggle').dropdown();
+/* var $buttonPrev = $('#buttonPrev');
     $buttonPrev.on('click',function(){
         window.location.href='../views/signup.html';
     });*/
-    /*var $buttonNext = $('#buttonNext');
+/* var $buttonNext = $('#buttonNext');
     $buttonNext.on('click',function(){
         window.location.href='../views/email.html';
     });*/
@@ -63,7 +63,7 @@ $(document).ready(function(){
             }
         });
  */
- /*
+/*
     $codeVerify1.on('keydown', function(){
         if($codeVerify1 != $code1){
             alert('noo');
@@ -71,11 +71,11 @@ $(document).ready(function(){
     });
 
     $buttonNext.on('click',function(){*/
-        /*var $codeVerify1 = ('#codeInput1');
+/* var $codeVerify1 = ('#codeInput1');
         var $codeVerify2 = ('#codeInput2');
         var $codeVerify3 = ('#codeInput3');*/
         
-       /*if($codeVerify1 != $code1 || $codeVerify2 != $code2 || $codeVerify3 != $code3){
+/* if($codeVerify1 != $code1 || $codeVerify2 != $code2 || $codeVerify3 != $code3){
            $buttonNext.prop('disabled',true);
        }else{
             $buttonNext.prop('disabled',false);
