@@ -60,12 +60,10 @@
   top: 1.3rem;
   padding-right: 0.5rem;
 }
-.flag-width{
-  position: absolute;
-  width: 5vh;
-  padding-right: 0 !important;
+.li-flag{
+  width: 7vh;
 }
-.flag-option{
+.flag-options{
   position: relative;
   width:40%;
   height:50%;
