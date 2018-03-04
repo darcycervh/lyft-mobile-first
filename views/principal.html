@@ -5,23 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lyft</title>
+  <!-- Bootstrap Css compilado -->
   <link rel="stylesheet" href="../vendors/css/bootstrap.min.css">
+  <!-- carpeta Css de la vista: principal -->
   <link rel="stylesheet" href="../css/principal.css">
 </head>
 <body>
-  <main class="city">
+  <main class="city d-flex align-items-center w-100">
     <div class="container-fluid">
+      <!-- Logo Lyft -->
       <div class="row">
-        <span class="lyft"></span>
+        <span class="lyft m-auto"></span>
       </div>
-      <div class="container w-75 position-relative text-center ">
-        <button id="login" class="btn btn-default text-uppercase text-white mr-2 mx-auto border-white">log in</button>
-        <button id="signup" class="btn btn-default text-uppercase text-white border-white">sign up</button>
+      <!-- Botones de registro e inicio de sesión -->
+      <div class="container w-100 position-relative text-center group-button">
+        <button id="login" class="btn btn-default text-uppercase text-white mr-2 mx-auto border-white position-relative">
+          log in
+        </button>
+        <button id="signup" class="btn btn-default text-uppercase text-white border-white ml-2 position-relative">
+          sign up
+        </button>
       </div>
     </div>
   </main>
+  <!-- jQuery -->
   <script src="../vendors/js/jquery-3.2.1.js"></script>
+  <!-- Bootstrap JavaScript compilado -->
   <script src="../vendors/js/bootstrap.min.js"></script>
+  <!-- Carpeta js de la vista principal -->
   <script src="../js/principal.js"></script>
 </body>
 </html>

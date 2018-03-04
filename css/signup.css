@@ -1,28 +1,105 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+/* Botón de ir atrás */
+.button-behind{
+  border: none;
+  position: relative;
+  top: 0.5rem;
+  left: 0.5rem;
+}
 .icon{
-    font-size: 2em;
+  font-size: 2em;
 }
-.p{
-    font-size: 0.8em;
+/* Texto del inicio */
+.text-position{
+  position: relative;
+  top: 2rem;
 }
-.flag1{
-    background: red;
+.text-title{
+  font-family: 'Pacifico', cursive;
 }
-.eeuu {
-    background-image:url(../assets/images/eeuu.png);
-    width:45px;
-    height:23px;
+.text{
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  top: 0.3rem;
+  margin-bottom: 0.8rem;
 }
-.button-next{
-    color: #fff;
-    background: rgb(147,3,160); /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(147,3,160,1) 2%, rgba(237,4,182,1) 50%, rgba(80,0,209,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(147,3,160,1) 2%,rgba(237,4,182,1) 50%,rgba(80,0,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(147,3,160,1) 2%,rgba(237,4,182,1) 50%,rgba(80,0,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9303a0', endColorstr='#5000d1',GradientType=1 ); 
+/* Línea divisoria entre el texto y registro del número de teléfono */
+.hr{
+  border: 0.5px solid silver;
+  margin-bottom: 2.5rem;
+}
+/* Botón para seleccionar el país */
+.btn-flag{
+  width: 5rem;
+  position: relative;
+  top: 3rem;
+  right: 12rem;
+  padding: 0.4rem 0.3rem;
+  border: 0.5px solid silver;
+}
+.flag{
+  position: relative;
+  width:60%;
+  height:100%;
+  border-radius: 0.5vh;
+  padding-right: 0.3rem;
+}
+.group-input{
+  width: 60%;
+  position: relative;
+  left: 6rem;
+  display: flex;
+  bottom: 0.4rem;
+}
+.code-country{
+  position: relative;
+  top: 1.3rem;
+  padding-right: 0.5rem;
+}
+.flag-width{
+  position: absolute;
+  width: 5vh;
+  padding-right: 0 !important;
+}
+.flag-option{
+  position: relative;
+  width:40%;
+  height:50%;
+  margin-right: 0;
+  border-radius: 0.5vh;
+}
+/* Ícono dropdown */
+.icon-dropdown{
+  color: rgb(15, 15, 15);
+  position: relative;
+  bottom: 0.6rem;
+  font-size: 1.2em;
+}
+/* */
+.btn-send, .btn-next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+/* Botón para ir a la vista siguiente */
+.btn-next{
+  color: #fff;
+  border-radius: 1vh;
+  width: 50%;
+  position: relative;
+  top: 10rem;
+  background: rgb(147,3,160);
+  background: -moz-linear-gradient(left, rgba(147,3,160,1) 2%, rgba(237,4,182,1) 50%, rgba(80,0,209,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(147,3,160,1) 2%,rgba(237,4,182,1) 50%,rgba(80,0,209,1) 100%);
+  background: linear-gradient(to right, rgba(147,3,160,1) 2%,rgba(237,4,182,1) 50%,rgba(80,0,209,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9303a0', endColorstr='#5000d1',GradientType=1 ); 
+}
+/* Input para escribir el número de teléfono */
+.form-control{
+  width: 50%;
 }

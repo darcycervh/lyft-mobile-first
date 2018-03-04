@@ -5,55 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lyft</title>
-  <link rel="stylesheet" href="../vendors/css/bootstrap.min.css">
+  <!-- Materialize css compilado -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Fontawesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+  <!-- Tipografías de Google Fonts: Pacífico y Raleway -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway" rel="stylesheet">
+  <!-- carpeta css de la vista signup -->
   <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col">
-        <button id="buttonPrev" href="" class="btn fa fa-angle-left rounded-circle bg-white icon"></button>
-        <h2 class="text-center mt-5">Sign up</h2>
-        <p class="text-center">Join now for free ride credit</p>
-        <hr>
+      <div class="col s12 text-position">
+        <button id="buttonPrev" href="" class="fa fa-angle-left icon white button-behind"></button>
+        <h2 class="center-align text-title">Sign up</h2>
+        <p class="center-align text">Join now for free ride credit</p>
+        <hr class="hr">
       </div>
     </div>
   </div>
-  <div class="input-group">
-   <select class="ml-5" name="" id="">
-     <option value="eeuu" id="eeuu">EEUU</option>
-     <option value="mxd" id="mxd">MXD</option>
-     <option value="per" id="per">PER</option>
-     <option value="col" id="col">COL</option>
-   </select>
-    <input type="text" id="inputNumber" class="form-control mr-5" aria-label="phone-number" aria-describedby="basic-addon1">
+  <div class="container">
+    <span id=""class="text">
+    Write your phone number:
+    </span>
+    <!-- columna de la bandera -->
+    <a class="dropdown-button btn btn-flag grey lighten-5" href='#' data-activates='dropdown1'>
+      <img src="../assets/flags/1x1/um.svg" class="flag" alt="EEUU">
+      <span class="fa fa-sort-desc icon-dropdown"></span>
+    </a>
+    <!-- Estructura dropdown  -->
+    <ul id='dropdown1' class='dropdown-content flag-dropdown'>
+      <li><a href="#!"><img class="flag-option" src="../assets/flags/1x1/pe.svg" alt="Perú"></a></li>
+      <li><a href="#!"><img class="flag-option" src="../assets/flags/1x1/co.svg" alt="Colombia"></a></li>
+      <li><a href="#!"><img class="flag-option" src="../assets/flags/1x1/ec.svg" alt="Ecuador"></a></li>
+      <li><a href="#!"><img class="flag-option" src="../assets/flags/1x1/es.svg" alt="España"></a></li>
+    </ul>
+    <!-- columna para el input para escribir el número de teléfono -->
+    <div class="group-input">
+      <span class="code-country text">+1</span>
+      <input type="text" id="inputNumber" class="form-control" aria-label="phone-number" aria-describedby="basic-addon1">
+    </div>
   </div>
-  <span id="msn"class="bg-warning text-light ml-5 rounded p-1">escriba su número de teléfono</span>
   <div class="container">
     <div class="row">
-      <div class="col">
-        <p class="text-center p mt-3">We'll send a text to verify your phone</p>
-        <button type="submit" id="buttonNext" class="btn btn-block text-uppercase mt-5">next</button>
-      </div>
+      <button class="btn purple lighten-2 text btn-send">SEND CODE</button>
+      <br>
+      <button type="submit" id="buttonNext" class="btn btn-next">NEXT</button>
     </div>
   </div>
-  <!--<div class="container">
-    <div class="row">
-      <div class="col">
-          <div class="alert alert-light border border-secondary text-dark text-center" role="alert">
-              Tu código es: LAB- <span id="random"></span>
-              <br>
-              <button class="btn btn-primary">ok</button>
-          </div>
-      </div>
-    </div>
-  </div>-->
+  <!-- Librería jQuery -->
   <script src="../vendors/js/jquery-3.2.1.js"></script>
-  <script src="https://code.jquery.com/jquery-latest.js"></script>
-  
-  <script src="../vendors/js/bootstrap.min.js"></script>
+  <!-- Materialize JavaScript compilado -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- carpeta JavaScript  -->
   <script src="../js/signup.js"></script>
 </body>
 </html>
