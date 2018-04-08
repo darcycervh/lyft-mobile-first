@@ -31,3 +31,11 @@ Desarrolla una web-app que replique el sitio de Lyft, en este reto deberás cump
 # Flujo de la plataforma de registro y validación de **Lyft**
 
 ![flujo de vistas lyft](assets/images/user-flow.png)
+
+# Herramientas utilizadas:
+
+* HTML.
+* CSS.
+* jQuery.
+* Materialize.
+* Bootstrap.
