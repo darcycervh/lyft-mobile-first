@@ -3,6 +3,8 @@
 Es un aplicativo de servicio de transporte.
 
 ![Logo](assets/images/logo.png)
+![Logo](assets/images/lyft-main.png)
+
 
 ## Desarrollado para 
 
