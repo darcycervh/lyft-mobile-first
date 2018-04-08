@@ -4,6 +4,7 @@ $(document).ready(function() {
   $buttonPrev.on('click', function() {
     window.location.href = '../views/principal.html';
   });
+  var $btnSendCode = $('#send-code');
   var $buttonNext = $('#buttonNext'); 
   var $inputNumber = $('#inputNumber');
   // $buttonNext.prop('disabled',true);
