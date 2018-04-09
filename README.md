@@ -2,8 +2,9 @@
 
 Es un aplicativo de servicio de transporte.
 
-![Logo](assets/images/logo.png)
-![Logo](assets/images/lyft-main.png)
+
+![image](https://user-images.githubusercontent.com/32311166/38517108-85e85720-3bfe-11e8-9d5a-86d9e6a4d9bf.png)
+
 
 
 ## Desarrollado para 
